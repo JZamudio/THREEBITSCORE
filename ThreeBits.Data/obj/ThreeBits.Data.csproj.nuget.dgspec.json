@@ -74,7 +74,7 @@
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.4, )"
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -141,6 +141,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -159,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -210,7 +214,7 @@
           "dependencies": {
             "RestSharp": {
               "target": "Package",
-              "version": "[108.0.2, )"
+              "version": "[105.2.3, )"
             }
           },
           "imports": [
@@ -229,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7V7d605mzsux7oQ1JIplrcgQ0iRPvO4D1GGcH7w/jDPLv9TSJ13ZPmAYOmnjuGIDcbbh6mJM9Bws84Hu5Gyekw==",
+  "dgSpecHash": "+qxWvInXUViLp+xaLXjfK/cwpWjCij+XdsLgGGut5RrGwkB6KIHMyu7HM5xL7JlFU+MznFf+qF5Gnr4/p6ddWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\JULIO CESAR\\Documents\\GitHub\\THREEBITSCORE\\ThreeBits.Data\\ThreeBits.Data.csproj",
   "expectedPackageFiles": [
@@ -35,12 +35,12 @@
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\nuget.configuration\\6.3.1\\nuget.configuration.6.3.1.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\nuget.frameworks\\6.3.1\\nuget.frameworks.6.3.1.nupkg.sha512",
-    "C:\\Users\\JULIO CESAR\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512",
+    "C:\\Users\\JULIO CESAR\\.nuget\\packages\\restsharp\\105.2.3\\restsharp.105.2.3.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.data.sqlclient\\4.8.4\\system.data.sqlclient.4.8.4.nupkg.sha512",
+    "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -50,5 +50,16 @@
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\JULIO CESAR\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RestSharp 105.2.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

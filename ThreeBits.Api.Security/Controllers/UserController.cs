@@ -164,7 +164,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPost]
         [Route("addRolesXUsuario")]
         [Authorize]
-        public ActionResult addRolesXUsurario([FromBody] ReglasBE Reglas, [FromBody] List<RolesXUsuarioBE> RolesXUsuario)
+        public ActionResult addRolesXUsurario([FromBody] reqAddRolesxUsuario item)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -174,7 +174,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.addRolesXUsuario(Reglas, RolesXUsuario, oApp.IDAPLICACION);
+                oRes.data = _service.addRolesXUsuario(item.Reglas, item.RolesXUsuario, oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)
@@ -194,7 +194,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPost]
         [Route("addUsuarioXAplicacion")]
         [Authorize]
-        public ActionResult addUsuarioXAplicacion(ReglasBE Reglas, List<UsuarioXAppBE> lstUSuarioXApp)
+        public ActionResult addUsuarioXAplicacion([FromBody] reqAddUsuarioxAplicacionBE item)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -204,7 +204,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.addUsuarioXAplicacion(Reglas, lstUSuarioXApp, oApp.IDAPLICACION);
+                oRes.data = _service.addUsuarioXAplicacion(item.Reglas, item.lstUSuarioXApp, oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)
@@ -224,7 +224,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPost]
         [Route("GetUsuarios")]
         [Authorize]
-        public ActionResult GetUsuarios(ReglasBE Reglas, List<UsuarioXAppBE> lstUSuarioXApp)
+        public ActionResult GetUsuarios(UsuariosBE  Usuario)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -234,7 +234,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.addUsuarioXAplicacion(Reglas, lstUSuarioXApp, oApp.IDAPLICACION);
+                oRes.data = _service.GetUsuarios(Usuario, oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)
@@ -429,7 +429,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPost]
         [Route("getCatSelection")]
         [Authorize]
-        public ActionResult getCatSelection(int IdCatGeneral, int IdSubCatalogo)
+        public ActionResult getCatSelection(reqCatalogoBE item)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -439,7 +439,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.getCatSelection(IdCatGeneral,IdSubCatalogo,oApp.IDAPLICACION);
+                oRes.data = _service.getCatSelection(item.IdCatGeneral,item.IdSubCatalogo,oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)
@@ -458,7 +458,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPut]
         [Route("updateRol")]
         [Authorize]
-        public ActionResult updateRol(ReglasBE Reglas, RolesXUsuarioBE RolXUsuario)
+        public ActionResult updateRol(reqUpdRolBE item)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -468,7 +468,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.updateRol(Reglas, RolXUsuario, oApp.IDAPLICACION);
+                oRes.data = _service.updateRol(item.reglas, item.rolesXUsuario, oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)
@@ -516,7 +516,7 @@ namespace ThreeBits.Api.Security.Controllers
         [HttpPost]
         [Route("addUserAut")]
         [Authorize]
-        public ActionResult addUserAut(ReglasBE Reglas, UsuariosBE Usuario, List<DomicilioBE> Domicilios, List<ContactoBE> Contactos, List<RolesXUsuarioBE> RolesXUsuario)
+        public ActionResult addUserAut([FromBody] DatosUsuarioBE item)
         {
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
@@ -526,7 +526,7 @@ namespace ThreeBits.Api.Security.Controllers
             {
 
                 oRes.flag = true;
-                oRes.data = _service.addUserAut(Reglas,Usuario,Domicilios,Contactos, RolesXUsuario, oApp.IDAPLICACION);
+                oRes.data = _service.addUserAut(item.Reglas,item.Usuario,item.Domicilios,item.Contactos,item.RolesXUsuario, oApp.IDAPLICACION);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)

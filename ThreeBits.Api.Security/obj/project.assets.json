@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "EnterpriseLibrary.Common/6.0.1304": {
+        "type": "package",
+        "compile": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {}
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {}
+        }
+      },
+      "EnterpriseLibrary.Data/6.0.1304": {
+        "type": "package",
+        "dependencies": {
+          "EnterpriseLibrary.Common": "6.0.0"
+        },
+        "compile": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll": {}
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1824,7 +1845,7 @@
           "ref/netstandard1.3/System.Console.dll": {}
         }
       },
-      "System.Data.SqlClient/4.8.4": {
+      "System.Data.SqlClient/4.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -3126,7 +3147,7 @@
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "NuGet.Configuration": "6.3.1",
-          "System.Data.SqlClient": "4.8.4",
+          "System.Data.SqlClient": "4.8.6",
           "ThreeBits.Entities": "1.0.0",
           "ThreeBits.Interfaces": "1.0.0"
         },
@@ -3141,7 +3162,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.6"
         },
         "compile": {
           "bin/placeholder/ThreeBits.Entities.dll": {}
@@ -3154,7 +3176,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "RestSharp": "108.0.2",
+          "RestSharp": "105.2.3",
           "ThreeBits.Entities": "1.0.0"
         },
         "compile": {
@@ -3168,6 +3190,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "EnterpriseLibrary.Data": "6.0.1304",
           "ThreeBits.Business": "1.0.0",
           "ThreeBits.Entities": "1.0.0",
           "ThreeBits.Interfaces": "1.0.0",
@@ -3199,6 +3222,41 @@
     }
   },
   "libraries": {
+    "EnterpriseLibrary.Common/6.0.1304": {
+      "sha512": "w/ua1PWAQD1/CnJ+qz/5APgmqI/1YnbamnwFGSotm7b66sFIkrnfLC+9+WzcSZWnePwwUw3Pl2QsLVDyX7NwaQ==",
+      "type": "package",
+      "path": "enterpriselibrary.common/6.0.1304",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EnterpriseLibrary.Configuration.xsd",
+        "Update-EntlibConfiguration.ps1",
+        "enterpriselibrary.common.6.0.1304.nupkg.sha512",
+        "enterpriselibrary.common.nuspec",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.xml",
+        "tools/Utils.psm1",
+        "tools/install.ps1"
+      ]
+    },
+    "EnterpriseLibrary.Data/6.0.1304": {
+      "sha512": "FmaIrwbO7qOg0hd6rESeltyxcOccBa9V5QXPQ/4vMzpqZXh457uiJcwV4Xtx8q1zFhiGq1AszYjWP1p69Qps+w==",
+      "type": "package",
+      "path": "enterpriselibrary.data/6.0.1304",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "enterpriselibrary.data.6.0.1304.nupkg.sha512",
+        "enterpriselibrary.data.nuspec",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.xml",
+        "tools/Utils.psm1",
+        "tools/install.ps1"
+      ]
+    },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "sha512": "fVQsSXNZz38Ysx8iKwwqfOLHhLrAeKEMBS5Ia3Lh7BJjOC2vPV28/yk08AovOMsB3SNQPGnE7bv+lsIBTmAkvw==",
       "type": "package",
@@ -6001,10 +6059,10 @@
         "system.console.nuspec"
       ]
     },
-    "System.Data.SqlClient/4.8.4": {
-      "sha512": "45YflfcVXAu+Tnf0WnZzQIp9iGm+XvSvh8OosYHqax/nW3gV28NBSRvHFZ/IsuwV4JIypYCKBEOVzW+RB5+zgQ==",
+    "System.Data.SqlClient/4.8.6": {
+      "sha512": "2Ij/LCaTQRyAi5lAv7UUTV9R2FobC8xN9mE0fXBZohum/xLl8IZVmE98Rq5ugQHjCgTBRKqpXRb4ORulRdA6Ig==",
       "type": "package",
-      "path": "system.data.sqlclient/4.8.4",
+      "path": "system.data.sqlclient/4.8.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6081,7 +6139,7 @@
         "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
         "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
         "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
-        "system.data.sqlclient.4.8.4.nupkg.sha512",
+        "system.data.sqlclient.4.8.6.nupkg.sha512",
         "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -9800,8 +9858,40 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EnterpriseLibrary.Data 6.0.1304 depende de EnterpriseLibrary.Common (>= 6.0.0), pero no se encontró EnterpriseLibrary.Common 6.0.0. Se resolvió una mejor coincidencia aproximada de EnterpriseLibrary.Common 6.0.1304.",
+      "libraryId": "EnterpriseLibrary.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"EnterpriseLibrary.Common 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "EnterpriseLibrary.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"EnterpriseLibrary.Data 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "EnterpriseLibrary.Data",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

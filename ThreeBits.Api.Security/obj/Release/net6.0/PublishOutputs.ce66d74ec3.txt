@@ -5,6 +5,8 @@ C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\R
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\ThreeBits.Api.Security.deps.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\ThreeBits.Api.Security.runtimeconfig.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\ThreeBits.Api.Security.pdb
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll

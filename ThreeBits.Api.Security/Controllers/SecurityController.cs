@@ -552,11 +552,11 @@ namespace ThreeBits.Api.Security.Controllers
             ProcessResult oRes = new ProcessResult();
             AplicacionBE oApp = new AplicacionBE();
             var xAppId = _httpContextAccessor.HttpContext.Request.Headers["XAPPID"];
-            oApp = _securityServiceBR.getAppInfo(xAppId);
+           // oApp = _securityServiceBR.getAppInfo(xAppId);
             try
             {
                 oRes.flag = true;
-                oRes.data = _securityServiceBR.getAppInfo(oApp.IDAPLICACION.ToString());
+                oRes.data = _securityServiceBR.getAppInfo(xAppId);
                 oRes.errorMessage = "";
             }
             catch (Exception ex)

@@ -13,11 +13,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="108.0.2" />
+    <PackageReference Include="RestSharp" Version="105.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ThreeBits.Entities\ThreeBits.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="School\Alumnos\" />
+    <Folder Include="School\Comun\" />
   </ItemGroup>
 
 </Project>

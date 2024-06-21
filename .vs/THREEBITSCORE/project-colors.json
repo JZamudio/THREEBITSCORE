@@ -50,7 +50,12 @@
       "ProjectGuid": "58b8529b-9831-4324-ae0b-10c357a7a0c2",
       "DisplayName": "ThreeBits.Shared",
       "ColorIndex": 8
+    },
+    "ca4dfaf6-6058-4722-8e95-96ec70d8fff0": {
+      "ProjectGuid": "ca4dfaf6-6058-4722-8e95-96ec70d8fff0",
+      "DisplayName": "ThreeBits.Api.School",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

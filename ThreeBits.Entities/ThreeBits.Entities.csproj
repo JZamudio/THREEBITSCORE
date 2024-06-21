@@ -8,6 +8,49 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="School\Reportes\AlumnoDs.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AlumnoDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="School\Reportes\CredencialDS.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CredencialDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="School\Reportes\DeudoresDs.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DeudoresDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="School\Reportes\RecibosDs.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RecibosDs.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="School\Reportes\AlumnoDs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AlumnoDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="School\Reportes\CredencialDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CredencialDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="School\Reportes\DeudoresDs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeudoresDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="School\Reportes\RecibosDs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecibosDs.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

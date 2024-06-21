@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ThreeBits.Entities.School
 {
-    class AlumnosBE
+    public class AlumnosBE
     {
+        public string sIdColegio { get; set; }
         public string sIdAlumno { get; set; }
         public string sNumeroMatricula { get; set; }
         public string sFechaRegistro { get; set; }

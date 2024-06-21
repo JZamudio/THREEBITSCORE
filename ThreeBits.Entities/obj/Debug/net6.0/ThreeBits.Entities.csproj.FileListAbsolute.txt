@@ -14,6 +14,7 @@ C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\bin\Debug
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\bin\Debug\net6.0\ThreeBits.Entities.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\bin\Debug\net6.0\ref\ThreeBits.Entities.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\bin\Debug\net6.0\ThreeBits.Entities.pdb
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\obj\Debug\net6.0\ThreeBits.Entities.csproj.AssemblyReference.cache
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\obj\Debug\net6.0\ThreeBits.Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\obj\Debug\net6.0\ThreeBits.Entities.AssemblyInfoInputs.cache
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Entities\obj\Debug\net6.0\ThreeBits.Entities.AssemblyInfo.cs

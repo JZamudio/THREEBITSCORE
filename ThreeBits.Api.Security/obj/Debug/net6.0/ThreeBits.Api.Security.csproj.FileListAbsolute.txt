@@ -1,9 +1,3 @@
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.csproj.AssemblyReference.cache
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.AssemblyInfoInputs.cache
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.AssemblyInfo.cs
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.csproj.CoreCompileInputs.cache
-C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\appsettings.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Api.Security.exe
@@ -12,6 +6,8 @@ C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\D
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Api.Security.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ref\ThreeBits.Api.Security.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Api.Security.pdb
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -65,7 +61,13 @@ C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\D
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Data.pdb
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Entities.pdb
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Debug\net6.0\ThreeBits.Shared.pdb
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.csproj.AssemblyReference.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.AssemblyInfoInputs.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.AssemblyInfo.cs
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.csproj.CoreCompileInputs.cache
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\ThreeBits.Api.Security.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Debug\net6.0\scopedcss\bundle\ThreeBits.Api.Security.styles.css

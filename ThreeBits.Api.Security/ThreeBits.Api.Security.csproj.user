@@ -3,6 +3,6 @@
   <PropertyGroup>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

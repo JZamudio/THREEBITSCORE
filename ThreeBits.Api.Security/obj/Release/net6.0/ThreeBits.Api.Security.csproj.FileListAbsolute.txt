@@ -74,3 +74,5 @@ C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\R
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\ref\ThreeBits.Api.Security.dll
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\ThreeBits.Api.Security.pdb
 C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\obj\Release\net6.0\ThreeBits.Api.Security.genruntimeconfig.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Release\net6.0\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\ThreeBits.Api.Security\bin\Release\net6.0\Microsoft.Practices.EnterpriseLibrary.Data.dll
