@@ -58,3 +58,9 @@ C:\Users\juliocmartinezz\source\repos\THREEBITSCORE\Threebits.WebApiSecurity\bin
 C:\Users\juliocmartinezz\source\repos\THREEBITSCORE\Threebits.WebApiSecurity\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\juliocmartinezz\source\repos\THREEBITSCORE\Threebits.WebApiSecurity\bin\Debug\net6.0\NuGet.Configuration.dll
 C:\Users\juliocmartinezz\source\repos\THREEBITSCORE\Threebits.WebApiSecurity\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.csproj.AssemblyReference.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.AssemblyInfoInputs.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.AssemblyInfo.cs
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.csproj.CoreCompileInputs.cache
+C:\Users\JULIO CESAR\Documents\GitHub\THREEBITSCORE\Threebits.WebApiSecurity\obj\Debug\net6.0\Threebits.WebApiSecurity.MvcApplicationPartsAssemblyInfo.cache
